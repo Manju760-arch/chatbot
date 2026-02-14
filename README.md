@@ -1,16 +1,80 @@
-# React + Vite
+ChatGPT Clone 🧠💬
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A ChatGPT-like web app built with React and Vite, fully integrated with the OpenRouter GPT-4o-mini API. This project allows users to chat with an AI in real-time and includes features like random welcome messages and starting new chats.
 
-Currently, two official plugins are available:
+Features ✨
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Real-time AI chat using GPT-4o-mini API
 
-## React Compiler
+Random welcome messages when the app loads
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+New Chat button to start fresh conversations
 
-## Expanding the ESLint configuration
+Clean and modern UI with sidebar navigation
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Fully frontend-based, environment variables handled safely
+
+Responsive layout for desktop screens
+
+Tech Stack 🛠️
+
+Frontend: React, Vite
+
+API: OpenRouter GPT API
+
+Styling: CSS Flexbox, custom styles
+
+Getting Started 🚀
+Prerequisites
+
+Node.js >= 18
+
+NPM or Yarn
+
+Installation
+
+Clone the repository:
+
+git clone https://github.com/your-username/chatgpt-clone.git
+cd chatgpt-clone
+
+
+Install dependencies:
+
+npm install
+# or
+yarn install
+
+
+Create a .env file in the root directory:
+
+VITE_OPENAI_KEY=your_openai_or_openrouter_api_key_here
+
+
+Note: Never commit your .env file to GitHub.
+
+Run the development server:
+
+npm run dev
+# or
+yarn dev
+
+Usage 💻
+
+Type your message in the input box at the bottom and press Enter or click the Send button
+
+Click New Chat to start a fresh conversation
+
+The sidebar contains predefined queries for quick testing
+
+Deployment 🌐
+
+You can deploy this project on Vercel:
+
+Push your cleaned repository to GitHub
+
+Create a new project on Vercel
+
+Add your environment variable VITE_OPENAI_KEY in Vercel settings
+
+Deploy!
